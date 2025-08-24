@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "fonti";
+    src: url("bento-grid-main/assets/fonts/DMSans-VariableFont_opsz,wght.ttf") format("truetype");
+    font-style: normal;
+}
+@font-face {
+    font-family: "fonti";
+    src: url("bento-grid-main/assets/fonts/DMSans-Italic-VariableFont_opsz,wght.ttf") format("truetype");
+    font-style: italic;
+}
+.parent{
+    width:90vw;
+    height:auto;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 100px);
+    position: relative;
+    flex-wrap: wrap;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.container{
+    width:30rem;
+    margin:10px ;
+    margin-top: 30px;
+    height:auto;
+    background-color: #9370DB;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
+.container p{
+    font-weight:500;
+    font-size: 100px;
+    text-align:center;
+    color:#fff;
+    font-family: "fonti";
+    font-style: normal;
+    margin:70px;
+}
+.container #x10{
+    color: #ffd500;
+}
+#id1{
+    font-style: italic;
+    color : hsl(0, 0%, 100%);
+}
+
+.container .first{
+    width:50%;
+    position:relative;
+    top:-30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.container .caption{
+    text-align:center;
+    color: #fff;
+    font-family: "fonti";
+    font-size:40px;
+    margin-bottom: 50px;
+    font-weight:300;
+    margin-top: -20px;
+}
+
+/*centre elements*/
+.centro{
+    display:flex;
+    position:relative;
+    width:80vw;
+    margin:100px;
+    justify-content: space-evenly;
+    margin:10px;
+}
+.centro .yellow{
+    background-color:#ffd500;
+    position:relative;
+    color:black;
+    font-size: 60px;
+    text-align: start;
+    width:40%;
+
+}
+.white{
+    background-color: white;
+    align-items: center;
+    height:auto;
+    line-height: 70px;
+    width:40%;
+    position:relative;
+    left:0%
+}
+.white p{
+    position:relative;
+    color:black;
+    font-size: 75px;
+    text-align: start;
+}
+.white img{
+    width:90%;
+}
+.yellow img{
+    width:90%
+}
+
+
+/*end of center style*/
+
+
+
+.second{
+    margin-top:30px;
+    width:800px;
+}
